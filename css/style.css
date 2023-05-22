@@ -15,8 +15,82 @@
 /* <!-- How it works  end --> */
 
 /* <!-- Popular Collections start --> */
-
-/* <!-- Popular Collections end --> */
+/* .ww{
+    background: #3D2942;
+    border: 1px solid black;
+}
+#popular{
+    text-align: center;
+    margin-top: 2.5%;
+  }
+  .scroll-arrow {
+    width: 10%;
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+      cursor: pointer;
+      padding:0;
+      margin:0;
+      opacity: 0.5;
+    font-size:34px;
+    transition: 0.2s;
+  }
+  .scroll-arrow:hover {
+    transition: 0.2s;
+    opacity:1;
+  }
+    ul {
+      width: 70%;
+      scroll-behavior: smooth;
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+      text-align: center;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+      ul::-webkit-scrollbar {
+      display: none;
+    }
+    li {
+      list-style: none;
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+      width: 20%;
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      filter: grayscale(100%);
+        transition: 0.2s;
+    }
+  li, .img {
+    width: 500px;
+  }
+    li:hover {
+      transition: 0.2s;
+      filter: grayscale(0);
+    } */
+:root{
+    --ketman:linear-gradient;
+}
+.poputlarButton p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #F5FBF2;    
+}
+.poputlarButton{
+    border: 1px solid #FFCE4E;
+}
+.poputlarButton:hover{
+    border: 1px solid ;
+}
+    /* <!-- Popular Collections end --> */
 
 /* <!-- Explore By Categories start --> */
 
