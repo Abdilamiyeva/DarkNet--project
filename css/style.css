@@ -37,9 +37,20 @@
 .container{
     max-width: 1388px;
 }
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* <!-- header start --> */
+.header_wrapper{
+    margin: 0 auto;
+    max-width: 1601px;
+}
+.header_in{
 
+}
 /* <!-- header end --> */
 
 /* <!-- home start --> */
