@@ -1,13 +1,13 @@
 
 /* fonts links */
 @font-face{
-    font-family:  'Oxanium',cursive;
-    scr:url(../Oxanium/Oxanium-VariableFont_wght.ttf)
+    font-family:  'Oxanium';
+    src:url(../Oxanium/Oxanium-VariableFont_wght.ttf)
 }
 
 @font-face{
-    font-family: 'Work Sans',sans-serif;
-    scr:url(../Work_Sans/WorkSans-VariableFont_wght.ttf);
+    font-family: 'Work Sans';
+    src:url(../Work_Sans/WorkSans-VariableFont_wght.ttf);
 
 }
 
@@ -52,21 +52,21 @@ main{
     height: 1500px;
 }
 /* <!-- header start --> */
-.header_wrapper{
+.header__wrapper{
     margin: 0 auto;
     max-width: 1601px;
    
 }
-.header_in{
+.header__in{
     padding-top: 37px;
 }
-.header_logo{
+.header__logo{
     margin-right: 565px;
 }
-.nav_link{
+.nav__link{
     gap: 64px;
 }
-.nav_item a{
+.nav__item a{
     display: inline-block;
     font-family: var(--font1);
     font-style: normal;
@@ -79,12 +79,12 @@ main{
     border-bottom: 3px solid transparent;
     transition: all 0.6s ease;
 }
-.nav_item a:hover{
+.nav__item a:hover{
     color: var(--color-yellow);
   
     border-bottom: 3px solid var(--color-yellow);
 }
-.header_btn{
+.header__btn{
     border: none;
     font-family: var(--font1);
     font-style: normal;
@@ -101,7 +101,136 @@ main{
 /* <!-- header end --> */
 
 /* <!-- home start --> */
+.home__info h1{
+    font-family:var(--font2);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 130px;
+    max-width: 710px;
+    color:var(--page-title-text-color);
+}
+.home__info h1  span{
+    color: var(--color-yellow);
+}
+.home__buttons {
+    margin-top: 77px;
+    margin-bottom: 121px;
+}
+.home__buttons .bnt1{
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color:var(--button-color-black);
+    padding: 24px 76px;
+    background:var(--color-yellow);
+    border: none;
+    cursor: pointer;
+    margin-right: 48px;
+}
+.home__buttons .bnt2{
+    font-family:var(--font1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color:var(--card-button-text-color-white);
+    padding: 24px 76px;
+    border: none;
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid var(--color-yellow);
+    cursor: pointer;
+}
+.statistics{
+    max-width: 710px;
+    gap: 110px;
+}
+.statistic span{
+    font-family: var(--font2);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 78px;
+    color: var(--page-title-text-color);
+}
+.statistic p{
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color:var(--text-color-whiteblack);
+}
+.home__img{
+    padding: 10px;
+}
+.home__img .img__wrapper{
+    max-width: 556px;
+    position: relative;
+    border: 2px solid red;
+}
 
+.home__img__box1{
+    gap: 182px;
+    position: absolute;
+    top: 24px;
+    left: 23px;
+    right: 23px;
+    background: linear-gradient(92.8deg, rgba(255, 137, 61, 0.09) -52.37%, rgba(250, 250, 250, 0.9) 137.41%);
+    opacity: 0.95;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(22.5px);
+    max-width: 512px;
+    padding: 18px;
+}
+.home__img_box1__left{
+    margin-left: 39px;
+}
+.home__img_box1__left p{
+    
+    font-family: var(--font2);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    color: #E4DEE7;
+    margin-bottom: 7px;
+}
+.home__img_box1__left span{
+    font-family: var(--font2);
+    font-style: normal;
+    font-weight: 700;
+    white-space: nowrap;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--card-button-text-color-white);
+}
+.home__img_box1__right{
+    margin-right: 54px;
+}
+.home__img_box1__right p{
+    font-family:var(--font2);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.08em;
+    color: #E4DEE7;
+    margin-bottom: 7px;
+}
+.home__img_box1__right span{
+    font-family: var(--font2);
+    font-style: normal;
+    font-weight: 700;
+    white-space: nowrap;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--card-button-text-color-white);
+}
 /* <!-- home end --> */
 
 /* <!-- Live Auctions start --> */
