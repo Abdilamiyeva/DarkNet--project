@@ -1,3 +1,43 @@
+
+/* fonts links */
+@font-face{
+    font-family:  'Oxanium',cursive;
+    scr:url(../Oxanium/Oxanium-VariableFont_wght.ttf)
+}
+
+@font-face{
+    font-family: 'Work Sans',sans-serif;
+    scr:url(../Work_Sans/WorkSans-VariableFont_wght.ttf);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+:root{
+    --page-title-text-color:#F5FBF2;
+    --text-color-whiteblack:#9B9E9A;
+    --color-yellow: #FFCE4E;
+    --card-bg-color:#3D2942;
+    --card-button-text-color-white: #FFFFFF;
+    --icon-bg-color: #372839;
+    --color-red: #E03054;
+    --color-indigo: #8613A5;
+    --button-color-black: #251928;
+    --input-text-color:#A48EA9;
+    --footer-text-color:#96839B;
+    --footer-icon-color:#D53D5C;
+    --footer-youtobe-icon-color:#F7D7FF;
+}
+.container{
+    max-width: 1388px;
+}
+
 /* <!-- header start --> */
 
 /* <!-- header end --> */
