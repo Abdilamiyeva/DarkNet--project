@@ -457,7 +457,7 @@ main{
   height: 166px;
 }
 .works .works_main img {
-  padding: 15px;
+  padding: 8px;
 }
 .works .box h2 {
   font-family: var(--font1);
@@ -470,7 +470,7 @@ main{
   position: absolute;
   top: 130px;
   left: -90px;
-  width: 300px;
+  width: 270px;
   z-index: 1;
   text-align: center;
 }
