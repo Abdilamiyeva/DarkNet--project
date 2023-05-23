@@ -20,6 +20,8 @@
 
 }
 :root{
+    --font1:'Work Sans';
+    --font2:'Oxanium';
     --page-title-text-color:#F5FBF2;
     --text-color-whiteblack:#9B9E9A;
     --color-yellow: #FFCE4E;
@@ -36,19 +38,64 @@
 }
 .container{
     max-width: 1388px;
+    margin: 0 auto;
 }
 .d-flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+main{
+    background-image: url(../images/website_bg_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1500px;
+}
 /* <!-- header start --> */
 .header_wrapper{
     margin: 0 auto;
     max-width: 1601px;
+   
 }
 .header_in{
+    padding-top: 37px;
+}
+.header_logo{
+    margin-right: 565px;
+}
+.nav_link{
+    gap: 64px;
+}
+.nav_item a{
+    display: inline-block;
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: var(--page-title-text-color);
+    padding: 10px 0;
+    border-bottom: 3px solid transparent;
+    transition: all 0.6s ease;
+}
+.nav_item a:hover{
+    color: var(--color-yellow);
+  
+    border-bottom: 3px solid var(--color-yellow);
+}
+.header_btn{
+    border: none;
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 22px 30px;
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid var(--color-yellow);
+    color:var(--color-yellow);
+    cursor: pointer;
 
 }
 /* <!-- header end --> */
@@ -83,7 +130,6 @@
     text-align: center;
     max-width: 1600px;
     height: 930px;
-    border: 1px solid red;
 }
 .top_creators_header{
     position: relative;
@@ -97,7 +143,7 @@
     font-weight: 700;
     font-size: 64px;
     line-height: 130px;
-    color: #1d201c;
+    color: white;
 }
 .creators_circle{
     max-width: 110px;
@@ -127,6 +173,10 @@
 }
 .photo_creator{
     margin-left: 29px;
+}
+.photo_creator2{
+    margin-left: 29px;
+   
 }
 .creator_description{
     margin-left: 24px;
@@ -191,6 +241,12 @@
     letter-spacing: 0.05em;
     color: #F5FBF2;
 }
+
+
+/* <!-- Top Creators end --> */
+
+/* <!-- Contact start --> */
+
 .contact_nft_drop{
     margin-top: 157px;
     text-align: center;
@@ -200,6 +256,7 @@
     height: 96px;
     display: flex;
     margin: 0 auto;
+    border: 2px solid  #E7B226;
 }
 .contact_nft_drop .text{
     font-family: 'Oxanium';
@@ -211,7 +268,7 @@
     color: #F5FBF2;
 }
 .for_contact input{
-    max-width: 60%;
+    max-width: 336px;
     padding-left: 53px;
     font-family: 'Work Sans';
     font-style: normal;
@@ -219,6 +276,7 @@
     font-size: 24px;
     line-height: 35px;
     color: #A48EA9; 
+    border: none;
 }
 .for_contact .btn{
     max-width: 244px;
@@ -230,14 +288,75 @@
     font-size: 24px;
     line-height: 35px;
     color: #251928;
+    margin-left: 120px;
 }
-
-/* <!-- Top Creators end --> */
-
-/* <!-- Contact start --> */
 
 /* <!-- Contact end --> */
 
 /* <!-- Footer start --> */
+
+.footer{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 236px;
+}
+.footer_one img{
+    max-width: 194px;
+    height: 194px;
+    /* margin-top: 115px;
+    margin-left: 80px; */
+}
+.footer_two{
+    margin-left: 51px; 
+}
+.footer_two .nec{
+    max-width: 321px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #96839B;
+}
+.social_medias{
+    display: flex;
+    text-align: center;
+    gap: 36px;
+    margin-top: 61px;
+}
+.all_right{
+    margin-top: 60px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #96839B;
+}
+.footer_three{
+    margin-left: 198px;
+    
+}
+.footer_for{
+    margin-left: 227px;
+}
+.about_nft{
+    margin-top: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    color: #96839B;
+}
+.about{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #F5FBF2;
+}
 
 /* <!-- Footer end --> */
