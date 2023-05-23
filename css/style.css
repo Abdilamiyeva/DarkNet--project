@@ -556,10 +556,13 @@ main{
 
 /* <!-- Top Creators start --> */
 
+
 :root{
     --creators-bg-color:#302034;
 }
-
+.footer_media{
+  display: none;
+}
 .top_creators_section{
     margin: 0 auto;
     text-align: center;
@@ -600,7 +603,7 @@ main{
    align-items: center;
    max-width: 608px;
    height: 158px; 
-   /* background-color: var( --creators-bg-color); */
+   background-color: var( --creators-bg-color);
    box-shadow: inset 2px 0px 0px #E03054;
 }
 .photo_creator{
@@ -674,6 +677,7 @@ main{
     text-align: center;
 }
 .for_contact{
+  overflow: hidden;
     max-width: 694px;
     height: 96px;
     /* display: flex; */
@@ -702,24 +706,28 @@ main{
     color: #A48EA9; 
     border: none;
    background: transparent;
+   outline: none;
 }
 
 .for_contact .btn{
     max-width: 244px;
     padding: 30px 63px;
-    background: #E7B226;
+    background-color: transparent;
+    border: 1px solid  rgb(201, 165, 36);
+    color: white;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 35px;
-    color: #251928;
+    
 }
 .for_contact .btn:hover{
-    background-color: transparent;
     cursor: pointer;
-    border: 2px solid #E7B226;
-    color: #E7B226;
+    background-color: transparent;
+    color: #251928;
+    background: #E7B226;
+    transition: all 0.5s;
 }
 
 /* <!-- Contact end --> */
