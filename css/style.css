@@ -460,7 +460,7 @@ main{
   padding: 15px;
 }
 .works .box h2 {
-  font-family: 'Work Sans';
+  font-family: var(--font1);
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
