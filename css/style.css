@@ -550,6 +550,29 @@ main{
     background: #3D2942;
     border: 1px solid black;
 } */
+.btn_view {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  
+}
+.view_all {
+  background-color: transparent;
+  padding: 25px 65px;
+  border: 1px solid var(--color-yellow);
+  font-family: var(--font1);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.05em;
+  color: var(--card-button-text-color-white);
+  transition: all 0.5s linear;
+}
+.view_all:hover {
+  background-color: var(--color-yellow);
+  color: var(--button-color-black);
+}
 
 /* 
 .poputlarButton p{
