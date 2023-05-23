@@ -2,12 +2,14 @@
 /* fonts links */
 @font-face {
     font-family:  'Oxanium', cursive;
-    scr:url(../Oxanium/Oxanium-VariableFont_wght.ttf)
+    scr:url(../Oxanium/Oxanium-VariableFont_wght.ttf);
+
 }
 
 @font-face{
     font-family: 'Work Sans', sans-serif;
     scr:url(../Work_Sans/WorkSans-VariableFont_wght.ttf);
+    
 }
 
 *{
