@@ -397,7 +397,8 @@ main{
     font-size: 24px;
     line-height: 35px;
     color: var(--page-title-text-color);
-  }.testimonial .testimonial_cards ul li .cards_btn {
+  }
+  .testimonial .testimonial_cards ul li .cards_btn {
     background: rgba(233, 215, 167, 0.1);
     border: 1px solid #FDE8B3;
     font-family: var(--font1);
