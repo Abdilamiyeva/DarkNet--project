@@ -44,6 +44,7 @@
 }
 .container{
     max-width: 1388px;
+    padding: 20px;
     margin: 0 auto;
 }
 .d-flex{
@@ -572,7 +573,7 @@ main{
 /* <!-- Top Creators start --> */
 
 
-:root{
+/* :root{
     --creators-bg-color:#302034;
 }
 .footer_media{
@@ -589,7 +590,6 @@ main{
 }
 .top_creators{
     margin-top: 104px;
-    /* margin-left: 624px; */
     font-family: 'Oxanium';
     font-style: normal;
     font-weight: 700;
@@ -681,7 +681,7 @@ main{
 .photo_creator2 img{
     margin-left: 29px;
    border-radius: 50%;
-}
+} */
 
 /* <!-- Top Creators end --> */
 
@@ -757,7 +757,6 @@ main{
     display: flex;
     justify-content: center;
     margin-top: 236px;
-    /* margin-bottom: 50px; */
 }
 .footer_one img{
     max-width: 194px;
