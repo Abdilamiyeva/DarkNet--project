@@ -1,14 +1,13 @@
 
 /* fonts links */
-@font-face{
-    font-family:  'Oxanium',cursive;
+@font-face {
+    font-family:  'Oxanium', cursive;
     scr:url(../Oxanium/Oxanium-VariableFont_wght.ttf)
 }
 
 @font-face{
-    font-family: 'Work Sans',sans-serif;
+    font-family: 'Work Sans', sans-serif;
     scr:url(../Work_Sans/WorkSans-VariableFont_wght.ttf);
-
 }
 
 *{
@@ -27,6 +26,7 @@
     --color-yellow: #FFCE4E;
     --card-bg-color:#3D2942;
     --card-button-text-color-white: #FFFFFF;
+    --card-none-color: #C6BFC8;
     --icon-bg-color: #372839;
     --color-red: #E03054;
     --color-indigo: #8613A5;
@@ -105,7 +105,180 @@ main{
 /* <!-- home end --> */
 
 /* <!-- Live Auctions start --> */
+.testimonial {
+    background: linear-gradient(336.61deg, #251928 16.25%, rgba(37, 25, 40, 0) 91.6%);
+    padding: 80px 0;
+}
+  
+  .testimonial .testimonial_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+  }
+  .testimonial .testimonial_head .testimonial_title {
+    margin-left: 30%;
+  }
+  .testimonial .testimonial_head .ellipse {
+    width: 110px;
+    height: 110px;
+    background: var(--color-indigo);
+    border-radius: 50%;
+    position: relative;
+    left: 60px;
+  }
+  
+  .testimonial .testimonial_head h1 {
+    font-family: var(--font2);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    z-index: 1;
+    color: var(--page-title-text-color);
+  }
+  
+  .testimonial .testimonial_head .testimonial_scroll {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .testimonial .testimonial_head .testimonial_scroll div {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+    transition: 0.7s;
+    cursor: pointer;
+  }
+  
+  .testimonial .testimonial_head .testimonial_scroll div i {
+    color: var(--card-button-text-color-white);
+  }
+  
+  .testimonial .testimonial_head .testimonial_scroll div:hover {
+    background: var(--card-button-text-color-white);
+  }
+  
+  .testimonial .testimonial_head .testimonial_scroll div:hover i {
+    color: var(--button-color-black);
+  }
+  
+  .testimonial .testimonial_cards {
+    overflow-x: hidden;
+  }
+  
+  .testimonial .testimonial_cards ul {
+    scroll-behavior: smooth;
+    display: inline-block;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    gap: 30px;
+  }
+  .testimonial .testimonial_cards ul li {
+    background: var(--card-bg-color);
+    width: 495px;
+    padding: 32px;
+  }
+  
+  .testimonial .testimonial_cards ul li .live_img {
+    width: 430px;
+    height: 360px;
+    position: relative;
+  }
+  .testimonial .testimonial_cards ul li .live_img .time {
+    background: linear-gradient(125.33deg, var(--color-indigo) 18.61%, rgba(250, 250, 250, 0.65) 137.4%);
+    opacity: 0.95;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(22.5px);
+    display: inline-block;
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    color: #F5FBF2;
+    padding: 15px 45px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .testimonial .testimonial_cards ul li .live_cards_text .portfolio_info {
+    margin: 20px 0;
+  }
+  .testimonial .testimonial_cards ul li .live_cards_text .portfolio_info img {
+    width: 54px;
+    height: 54px;
+  }
+  .testimonial .testimonial_cards ul li .live_cards_text .portfolio_info .virtual_art {
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    color: #F5FBF2;
+  }
+  .testimonial .testimonial_cards ul li .live_cards_text .portfolio_info .link_info a {
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    align-items: center;
+    color: var(--card-none-color);
+  }
+  .testimonial .testimonial_cards ul li .live_cards_text .portfolio_info .portfolio_rate i {
+    font-size: 30px;
+  }
+  .testimonial .testimonial_cards ul li .live_cards_text .portfolio_info .portfolio_rate {
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: var(--card-none-color);
+  }
+  .testimonial .testimonial_cards ul li .cards_price h4 {
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--card-none-color);
+  }
+  .testimonial .testimonial_cards ul li .cards_price h3 {
+    font-family: var(--font2);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--page-title-text-color);
+  }.testimonial .testimonial_cards ul li .cards_btn {
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid #FDE8B3;
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: var(--card-button-text-color-white);
+    padding: 21px 144px;
+    margin-top: 25px;
+  }
+  
 
+  .testimonial .testimonial_cards ul::-webkit-scrollbar {
+    display: none;
+  }
 /* <!-- Live Auctions end --> */
 
 /* <!-- How it works  start --> */
