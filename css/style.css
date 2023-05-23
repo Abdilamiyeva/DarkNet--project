@@ -50,7 +50,7 @@ main{
     background-image: url(../images/website_bg_img.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1500px;
+  
 }
 /* <!-- header start --> */
 .header__wrapper{
