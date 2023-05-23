@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="./Work_Sans/WorkSans-Italic-VariableFont_wght.ttf">
     <link rel="stylesheet" href="./Work_Sans/WorkSans-VariableFont_wght.ttf">
     <!-- <link rel="stylesheet" href="./Oxanium/static"> -->
+    <!-- Font Awesome, turli iconlar o'rnatish uchun -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <main>
@@ -96,7 +100,374 @@
     <!-- home end -->
 
     <!-- Live Auctions start -->
-     <h1>Noila</h1>
+    <section class="testimonial" id="ourCustomers">
+        <div class="container">
+          <div class="testimonial_head">
+            <div class="testimonial_title d-flex">
+              <span class="ellipse"></span>
+              <h1>Live Auctions</h1>
+            </div>
+            <div class="testimonial_scroll">
+              <div class="scroll_arrow" id="testimonial_scroll_left">
+                <i class="fa-solid fa-arrow-left"></i>
+              </div>
+              <div class="scroll_arrow" id="testimonial_scroll_right" onclick="scrollRight()">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial_cards">
+            <ul id="testimonalList">
+              <li>
+                <div class="live_img">
+                    <img src="./images/live_first.png" alt="img" loading="lazy">
+                    <div class="time">03:18:24</div>
+                </div>
+                <div class="live_cards_text">
+                    <div class="portfolio_info d-flex">
+                        <div class="portfolio_name_img d-flex">
+                            <img src="./images/live_card_portfolio_img.svg" alt="img" loading="lazy">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="virtual_art">Virtual Art</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="link_info">
+                                            <a href="#">by @wzard</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="portfolio_rate">
+                            <i class="fa-regular fa-heart"></i>
+                            92
+                        </div>
+                    </div>
+                    <div class="cards_price d-flex">
+                        <h4>Current Bid</h4>
+                        <h3>4.89 ETH</h3>
+                    </div>
+                    <button class="cards_btn">Place a bid</button>
+                </div>
+              </li>
+              <li>
+                <div class="live_img">
+                    <img src="./images/live_second.png" alt="img" loading="lazy">
+                    <div class="time">03:18:24</div>
+                </div>
+                <div class="live_cards_text">
+                    <div class="portfolio_info d-flex">
+                        <div class="portfolio_name_img d-flex">
+                            <img src="./images/live_card_portfolio_img.svg" alt="img" loading="lazy">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="virtual_art">Virtual Art</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="link_info">
+                                            <a href="#">by @wzard</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="portfolio_rate">
+                            <i class="fa-regular fa-heart"></i>
+                            92
+                        </div>
+                    </div>
+                    <div class="cards_price d-flex">
+                        <h4>Current Bid</h4>
+                        <h3>4.89 ETH</h3>
+                    </div>
+                    <button class="cards_btn">Place a bid</button>
+                </div>
+              </li>
+              <li>
+                <div class="live_img">
+                    <img src="./images/live_third.png" alt="img" loading="lazy">
+                    <div class="time">03:18:24</div>
+                </div>
+                <div class="live_cards_text">
+                    <div class="portfolio_info d-flex">
+                        <div class="portfolio_name_img d-flex">
+                            <img src="./images/live_card_portfolio_img.svg" alt="img" loading="lazy">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="virtual_art">Virtual Art</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="link_info">
+                                            <a href="#">by @wzard</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="portfolio_rate">
+                            <i class="fa-regular fa-heart"></i>
+                            92
+                        </div>
+                    </div>
+                    <div class="cards_price d-flex">
+                        <h4>Current Bid</h4>
+                        <h3>4.89 ETH</h3>
+                    </div>
+                    <button class="cards_btn">Place a bid</button>
+                </div>
+              </li>
+              <li>
+                <div class="live_img">
+                    <img src="./images/live_first.png" alt="img" loading="lazy">
+                    <div class="time">03:18:24</div>
+                </div>
+                <div class="live_cards_text">
+                    <div class="portfolio_info d-flex">
+                        <div class="portfolio_name_img d-flex">
+                            <img src="./images/live_card_portfolio_img.svg" alt="img" loading="lazy">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="virtual_art">Virtual Art</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="link_info">
+                                            <a href="#">by @wzard</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="portfolio_rate">
+                            <i class="fa-regular fa-heart"></i>
+                            92
+                        </div>
+                    </div>
+                    <div class="cards_price d-flex">
+                        <h4>Current Bid</h4>
+                        <h3>4.89 ETH</h3>
+                    </div>
+                    <button class="cards_btn">Place a bid</button>
+                </div>
+              </li>
+              <li>
+                <div class="live_img">
+                    <img src="./images/live_second.png" alt="img" loading="lazy">
+                    <div class="time">03:18:24</div>
+                </div>
+                <div class="live_cards_text">
+                    <div class="portfolio_info d-flex">
+                        <div class="portfolio_name_img d-flex">
+                            <img src="./images/live_card_portfolio_img.svg" alt="img" loading="lazy">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="virtual_art">Virtual Art</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="link_info">
+                                            <a href="#">by @wzard</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="portfolio_rate">
+                            <i class="fa-regular fa-heart"></i>
+                            92
+                        </div>
+                    </div>
+                    <div class="cards_price d-flex">
+                        <h4>Current Bid</h4>
+                        <h3>4.89 ETH</h3>
+                    </div>
+                    <button class="cards_btn">Place a bid</button>
+                </div>
+              </li>
+              <li>
+                <div class="live_img">
+                    <img src="./images/live_third.png" alt="img" loading="lazy">
+                    <div class="time">03:18:24</div>
+                </div>
+                <div class="live_cards_text">
+                    <div class="portfolio_info d-flex">
+                        <div class="portfolio_name_img d-flex">
+                            <img src="./images/live_card_portfolio_img.svg" alt="img" loading="lazy">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="virtual_art">Virtual Art</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="link_info">
+                                            <a href="#">by @wzard</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="portfolio_rate">
+                            <i class="fa-regular fa-heart"></i>
+                            92
+                        </div>
+                    </div>
+                    <div class="cards_price d-flex">
+                        <h4>Current Bid</h4>
+                        <h3>4.89 ETH</h3>
+                    </div>
+                    <button class="cards_btn">Place a bid</button>
+                </div>
+              </li>
+              <li>
+                <div class="live_img">
+                    <img src="./images/live_first.png" alt="img" loading="lazy">
+                    <div class="time">03:18:24</div>
+                </div>
+                <div class="live_cards_text">
+                    <div class="portfolio_info d-flex">
+                        <div class="portfolio_name_img d-flex">
+                            <img src="./images/live_card_portfolio_img.svg" alt="img" loading="lazy">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="virtual_art">Virtual Art</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="link_info">
+                                            <a href="#">by @wzard</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="portfolio_rate">
+                            <i class="fa-regular fa-heart"></i>
+                            92
+                        </div>
+                    </div>
+                    <div class="cards_price d-flex">
+                        <h4>Current Bid</h4>
+                        <h3>4.89 ETH</h3>
+                    </div>
+                    <button class="cards_btn">Place a bid</button>
+                </div>
+              </li>
+              <li>
+                <div class="live_img">
+                    <img src="./images/live_second.png" alt="img" loading="lazy">
+                    <div class="time">03:18:24</div>
+                </div>
+                <div class="live_cards_text">
+                    <div class="portfolio_info d-flex">
+                        <div class="portfolio_name_img d-flex">
+                            <img src="./images/live_card_portfolio_img.svg" alt="img" loading="lazy">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="virtual_art">Virtual Art</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="link_info">
+                                            <a href="#">by @wzard</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="portfolio_rate">
+                            <i class="fa-regular fa-heart"></i>
+                            92
+                        </div>
+                    </div>
+                    <div class="cards_price d-flex">
+                        <h4>Current Bid</h4>
+                        <h3>4.89 ETH</h3>
+                    </div>
+                    <button class="cards_btn">Place a bid</button>
+                </div>
+              </li>
+              <li>
+                <div class="live_img">
+                    <img src="./images/live_third.png" alt="img" loading="lazy">
+                    <div class="time">03:18:24</div>
+                </div>
+                <div class="live_cards_text">
+                    <div class="portfolio_info d-flex">
+                        <div class="portfolio_name_img d-flex">
+                            <img src="./images/live_card_portfolio_img.svg" alt="img" loading="lazy">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="virtual_art">Virtual Art</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="link_info">
+                                            <a href="#">by @wzard</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="portfolio_rate">
+                            <i class="fa-regular fa-heart"></i>
+                            92
+                        </div>
+                    </div>
+                    <div class="cards_price d-flex">
+                        <h4>Current Bid</h4>
+                        <h3>4.89 ETH</h3>
+                    </div>
+                    <button class="cards_btn">Place a bid</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+<!-- js -->
+<script>
+    const imgList = document.getElementById('testimonalList');
+    const scrollRight = document.getElementById('testimonial_scroll_right');
+    const scrollLeft = document.getElementById('testimonial_scroll_left');
+
+    if (scrollLeft !== null || scrollRight !== null) {
+    scrollRight.addEventListener('click', () => {
+        imgList.scrollBy(500, 0);
+    });
+
+    scrollLeft.addEventListener('click', () => {
+        imgList.scrollBy(-500, 0);
+    });
+    // testimonial card scroll tugadi
+
+    // counter raqam sanash boshlandi
+    $('.counter').counterUp({delay: 5, time: 1000});
+    // counter raqam sanasg tugadi
+    }
+
+    // testimonial card scroll boshlandi
+    const cards = document.getElementById('cards');
+    const shop_in_prev = document.getElementById('shop_in_prev');
+    const shop_in_next = document.getElementById('shop_in_next');
+
+    if (shop_in_prev !== null || shop_in_next !== null) {
+    shop_in_next.addEventListener('click', () => {
+        cards.scrollBy(500, 0);
+    });
+
+    shop_in_prev.addEventListener('click', () => {
+        cards.scrollBy(-500, 0);
+    });
+    // testimonial card scroll tugadi
+    }
+
+</script>
+
     <!-- Live Auctions end -->
 
     <!-- How it works  start -->
