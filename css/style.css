@@ -238,8 +238,12 @@ main{
 
 /* <!-- Live Auctions start --> */
 .testimonial {
-    background: linear-gradient(336.61deg, #251928 16.25%, rgba(37, 25, 40, 0) 91.6%);
+    background: var(--button-color-black);
     padding: 80px 0;
+    margin-top: 100px;
+}
+.testimonial .container {
+  overflow: hidden;
 }
   
   .testimonial .testimonial_head {
@@ -403,10 +407,33 @@ main{
     line-height: 35px;
     letter-spacing: 0.05em;
     color: var(--card-button-text-color-white);
-    padding: 21px 144px;
+    padding: 21px 120px;
     margin-top: 25px;
+    width: 100%;
   }
-  
+  .btn_view {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .view_all {
+    background-color: transparent;
+    padding: 25px 65px;
+    border: 1px solid var(--color-yellow);
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: var(--card-button-text-color-white);
+    transition: all 0.5s linear;
+  }
+  .view_all:hover {
+    background-color: var(--color-yellow);
+    color: var(--button-color-black);
+  }
 
   .testimonial .testimonial_cards ul::-webkit-scrollbar {
     display: none;
@@ -414,7 +441,42 @@ main{
 /* <!-- Live Auctions end --> */
 
 /* <!-- How it works  start --> */
-
+.works {
+  background: var(--button-color-black);
+  padding-bottom: 100px;
+}
+.works .works_head h1 {
+  font-family: var(--font2);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 130px;
+  color: var(--page-title-text-color);
+  text-align: center;
+  padding: 180px 0 50px;
+}
+.works .box {
+  position: relative;
+  height: 166px;
+}
+.works .works_main img {
+  padding: 8px;
+}
+.works .box h2 {
+  font-family: var(--font1);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: var(--color-yellow);
+  position: absolute;
+  top: 130px;
+  left: -90px;
+  width: 270px;
+  z-index: 1;
+  text-align: center;
+}
 /* <!-- How it works  end --> */
 
 /* <!-- Popular Collections start --> */
