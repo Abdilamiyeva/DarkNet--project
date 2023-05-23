@@ -109,13 +109,20 @@ main{
     border: 1px solid var(--color-yellow);
     color:var(--color-yellow);
     cursor: pointer;
+    transition: all 0.6s ease;
 
+}
+.header__btn:hover{
+
+  transform: scale(1.1);
+  color: var(--page-title-text-color);
+  background-color: var(--color-yellow);
 }
 /* <!-- header end --> */
 
 /* <!-- home start --> */
 .home__wrapper{
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 .home__info{
   margin-top: 141px;
@@ -144,11 +151,15 @@ main{
     line-height: 36px;
     color:var(--button-color-black);
     padding: 24px 76px;
-    background:var(--color-yellow);
-    border: none;
+    
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid var(--color-yellow);
+    color:var(--card-button-text-color-white);
     cursor: pointer;
     margin-right: 48px;
+    transition: all 0.6s ease;
 }
+
 .home__buttons .bnt2{
     font-family:var(--font1);
     font-style: normal;
@@ -161,6 +172,12 @@ main{
     background: rgba(233, 215, 167, 0.1);
     border: 1px solid var(--color-yellow);
     cursor: pointer;
+    transition: all 0.6s ease;
+    
+}
+.home__buttons .bnt1:hover, .bnt2:hover{
+  background-color: var(--color-yellow);
+  transform: scale(1.1);
 }
 .statistics{
     max-width: 710px;
@@ -298,11 +315,13 @@ main{
   color: #000000;
 
 }
+.partners__wrapper{
+  margin-top: 150px;
+}
 /* <!-- home end --> */
 
 /* <!-- Live Auctions start --> */
 .testimonial {
-    background: var(--button-color-black);
     padding: 80px 0;
     margin-top: 100px;
 }
@@ -509,7 +528,6 @@ main{
 
 /* <!-- How it works  start --> */
 .works {
-  background: var(--button-color-black);
   padding-bottom: 100px;
 }
 .works .works_head h1 {
@@ -600,6 +618,15 @@ main{
 /* <!-- Top Creators start --> */
 
 
+<<<<<<< HEAD
+=======
+:root{
+    --creators-bg-color:#302034;
+}
+.footer_media{
+  display: none;
+}
+>>>>>>> e417971e4869548fa195fe9625a1f0cdfdeccfe7
 .top_creators_section{
     margin: 0 auto;
     text-align: center;
@@ -640,7 +667,7 @@ main{
    align-items: center;
    max-width: 608px;
    height: 158px; 
-   /* background-color: var( --creators-bg-color); */
+   background-color: var( --creators-bg-color);
    box-shadow: inset 2px 0px 0px #E03054;
 }
 .photo_creator{
@@ -714,6 +741,7 @@ main{
     text-align: center;
 }
 .for_contact{
+  overflow: hidden;
     max-width: 694px;
     height: 96px;
     /* display: flex; */
@@ -742,24 +770,31 @@ main{
     color: #A48EA9; 
     border: none;
    background: transparent;
+   outline: none;
 }
 
 .for_contact .btn{
     max-width: 244px;
     padding: 30px 63px;
-    background: #E7B226;
+    background-color: transparent;
+    
+    color: white;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 35px;
-    color: #251928;
+    background: #E7B226;
+    transition: all 0.5s ease;
+    
 }
 .for_contact .btn:hover{
-    background-color: transparent;
     cursor: pointer;
-    border: 2px solid #E7B226;
-    color: #E7B226;
+    background-color: transparent;
+    color: var(--card-button-text-color-white);
+    border: 1px solid  rgb(201, 165, 36);
+   
+  
 }
 
 /* <!-- Contact end --> */
