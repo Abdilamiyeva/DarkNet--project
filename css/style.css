@@ -75,6 +75,163 @@
 
 /* <!-- Top Creators start --> */
 
+:root{
+    --creators-bg-color:#302034;
+}
+.top_creators_section{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1600px;
+    height: 930px;
+    border: 1px solid red;
+}
+.top_creators_header{
+    position: relative;
+    text-align: center;
+}
+.top_creators{
+    margin-top: 104px;
+    /* margin-left: 624px; */
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    color: #1d201c;
+}
+.creators_circle{
+    max-width: 110px;
+    height: 110px;
+    border-radius: 55px;
+    background: #E03054;
+    z-index: -1;
+}
+.creators{
+    display: flex;
+     gap: 72px;
+     justify-content: center;
+}
+.creators_two{
+    margin-top: 56px;
+    display: flex;
+     gap: 72px;
+     justify-content: center;
+}
+.creator{
+   display: flex;
+   align-items: center;
+   max-width: 608px;
+   height: 158px; 
+   background-color: var( --creators-bg-color);
+   box-shadow: inset 2px 0px 0px #E03054;
+}
+.photo_creator{
+    margin-left: 29px;
+}
+.creator_description{
+    margin-left: 24px;
+}
+.name{
+    width: 175px;
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #F5FBF2;
+}
+.eth{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #BDAAC1;
+}
+.line{
+    max-width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    border: 3px solid rgba(73, 55, 78, 1);
+    /* transform: rotate(90deg); */
+}
+.creator .items{
+    margin-left: 57px;
+    margin-right: 57px;
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #F5FBF2;
+}
+.creator span{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #908294;
+}
+.top_creators_section .btn{
+    max-width: 257px;
+    height: 84px;
+    padding: 24px 64px;
+    margin-top: 80px;
+    border: 1px solid #FFCE4E;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #F5FBF2;
+}
+.contact_nft_drop{
+    margin-top: 157px;
+    text-align: center;
+}
+.for_contact{
+    max-width: 680px;
+    height: 96px;
+    display: flex;
+    margin: 0 auto;
+}
+.contact_nft_drop .text{
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    text-align: center;
+    color: #F5FBF2;
+}
+.for_contact input{
+    max-width: 60%;
+    padding-left: 53px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #A48EA9; 
+}
+.for_contact .btn{
+    max-width: 244px;
+    padding: 32px 63px;
+    background: #E7B226;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #251928;
+}
+
 /* <!-- Top Creators end --> */
 
 /* <!-- Contact start --> */
