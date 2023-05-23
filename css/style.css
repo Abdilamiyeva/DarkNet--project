@@ -597,7 +597,7 @@ main{
    align-items: center;
    max-width: 608px;
    height: 158px; 
-   background-color: var( --creators-bg-color);
+   /* background-color: var( --creators-bg-color); */
    box-shadow: inset 2px 0px 0px #E03054;
 }
 .photo_creator{
