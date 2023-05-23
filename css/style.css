@@ -436,8 +436,7 @@ main{
     height: 930px;
 }
 .top_creators_header{
-    position: relative;
-    text-align: center;
+    justify-content: center;
 }
 .top_creators{
     margin-top: 104px;
@@ -448,13 +447,16 @@ main{
     font-size: 64px;
     line-height: 130px;
     color: white;
+    z-index: 1;
 }
 .creators_circle{
-    max-width: 110px;
+    width: 110px;
     height: 110px;
     border-radius: 55px;
     background: #E03054;
-    z-index: -1;
+    position: relative;
+    top: 50px;
+    left: 75px;
 }
 .creators{
     display: flex;
@@ -530,21 +532,6 @@ main{
     margin-left: 29px;
    
 }
-.top_creators_section .btn{
-    max-width: 257px;
-    height: 84px;
-    padding: 24px 54px;
-    margin-top: 80px;
-    border: 1px solid #FFCE4E;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 35px;
-    letter-spacing: 0.05em;
-    color: #F5FBF2;
-}
-
 
 /* <!-- Top Creators end --> */
 
@@ -557,7 +544,7 @@ main{
 .for_contact{
     max-width: 694px;
     height: 96px;
-    display: flex;
+    /* display: flex; */
     margin: 0 auto;
    border: 1px solid rgb(201, 165, 36);
 }
@@ -571,7 +558,9 @@ main{
     color: #F5FBF2;
 }
 .for_contact input{
-    max-width: 450px;
+    display: inline-block;
+    width: 450px;
+    height: 94px;
     padding-left: 53px;
     font-family: 'Work Sans';
     font-style: normal;
@@ -580,11 +569,12 @@ main{
     line-height: 35px;
     color: #A48EA9; 
     border: none;
-    background-color: var( --creators-bg-color);
+   background: transparent;
 }
+
 .for_contact .btn{
     max-width: 244px;
-    padding: 32px 63px;
+    padding: 30px 63px;
     background: #E7B226;
     font-family: 'Work Sans';
     font-style: normal;
@@ -592,7 +582,9 @@ main{
     font-size: 24px;
     line-height: 35px;
     color: #251928;
-    margin-left: 120px;
+}
+.for_contact .btn:hover{
+    background-color: rgb(165, 160, 160);
 }
 
 /* <!-- Contact end --> */
