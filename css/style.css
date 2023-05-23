@@ -495,6 +495,7 @@ main{
     letter-spacing: 0.05em;
     color: var(--card-button-text-color-white);
     transition: all 0.5s linear;
+    cursor: pointer;
   }
   .view_all:hover {
     background-color: var(--color-yellow);
@@ -592,13 +593,14 @@ main{
     display: flex;
      gap: 72px;
      justify-content: center;
+     margin-top: 70px;
 }
 .creator{
    display: flex;
    align-items: center;
    max-width: 608px;
    height: 158px; 
-   background-color: var( --creators-bg-color);
+   /* background-color: var( --creators-bg-color); */
    box-shadow: inset 2px 0px 0px #E03054;
 }
 .photo_creator{
@@ -608,7 +610,7 @@ main{
     margin-left: 24px;
 }
 .name{
-    width: 175px;
+    width: 180px;
     font-family: 'Oxanium';
     font-style: normal;
     font-weight: 600;
@@ -658,9 +660,9 @@ main{
      gap: 72px;
      justify-content: center;
 }
-.photo_creator2{
+.photo_creator2 img{
     margin-left: 29px;
-   
+   border-radius: 50%;
 }
 
 /* <!-- Top Creators end --> */
@@ -714,7 +716,10 @@ main{
     color: #251928;
 }
 .for_contact .btn:hover{
-    background-color: rgb(165, 160, 160);
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #E7B226;
+    color: #E7B226;
 }
 
 /* <!-- Contact end --> */
@@ -726,6 +731,7 @@ main{
     display: flex;
     justify-content: center;
     margin-top: 236px;
+    /* margin-bottom: 50px; */
 }
 .footer_one img{
     max-width: 194px;
@@ -748,6 +754,13 @@ main{
     text-align: center;
     gap: 36px;
     margin-top: 61px;
+    color: var(--color-red);
+}
+.social_medias .fa-brands:hover{
+  color: white;
+  transform: scale(1.5);
+  transform: all 2s;
+  cursor: pointer;
 }
 .all_right{
     margin-top: 60px;
@@ -766,7 +779,7 @@ main{
     margin-left: 227px;
 }
 .about_nft{
-    margin-top: 30px;
+    margin-top: 10px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 500;
