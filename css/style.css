@@ -575,6 +575,7 @@ main {
   padding: 21px 120px;
   margin-top: 25px;
   width: 100%;
+  cursor: pointer;
 }
 .btn_view {
   margin-top: 80px;
@@ -596,8 +597,9 @@ main {
   cursor: pointer;
 }
 .view_all:hover {
-  background-color: var(--color-yellow);
-  color: var(--button-color-black);
+  background: var(--color-yellow);
+  color: var(--card-button-text-color-white);
+  transform: scale(1.1);
 }
 
 .testimonial .testimonial_cards ul::-webkit-scrollbar {

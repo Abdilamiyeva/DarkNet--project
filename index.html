@@ -703,42 +703,6 @@
       </div>
       <!-- Footer end -->
     </main>
-      <!-- js -->
-      <script>
-        const imgList = document.getElementById("testimonalList");
-        const scrollRight = document.getElementById("testimonial_scroll_right");
-        const scrollLeft = document.getElementById("testimonial_scroll_left");
-
-        if (scrollLeft !== null || scrollRight !== null) {
-          scrollRight.addEventListener("click", () => {
-            imgList.scrollBy(500, 0);
-          });
-
-          scrollLeft.addEventListener("click", () => {
-            imgList.scrollBy(-500, 0);
-          });
-          // testimonial card scroll tugadi
-
-          // counter raqam sanash boshlandi
-          $(".counter").counterUp({ delay: 5, time: 1000 });
-          // counter raqam sanasg tugadi
-        }
-
-        // testimonial card scroll boshlandi
-        const cards = document.getElementById("cards");
-        const shop_in_prev = document.getElementById("shop_in_prev");
-        const shop_in_next = document.getElementById("shop_in_next");
-
-        if (shop_in_prev !== null || shop_in_next !== null) {
-          shop_in_next.addEventListener("click", () => {
-            cards.scrollBy(500, 0);
-          });
-
-          shop_in_prev.addEventListener("click", () => {
-            cards.scrollBy(-500, 0);
-          });
-          // testimonial card scroll tugadi
-        }
-      </script>
+     
   </body>
 </html>
