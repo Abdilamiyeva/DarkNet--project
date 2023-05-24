@@ -117,6 +117,16 @@ main {
   color: var(--card-button-text-color-white);
   transform: scale(1.1);
 }
+.header_bars{
+  display: none;
+}
+.header_bars a i{
+  font-size: 30px;
+  position: relative;
+  z-index: 2;
+  color: var(--color-yellow);
+}
+
 /* <!-- header end --> */
 
 /* <!-- home start --> */
@@ -137,6 +147,9 @@ main {
 }
 .home__info h1 span {
   color: var(--color-yellow);
+}
+.title{
+  display: none;
 }
 .home__buttons {
   margin-top: 77px;
@@ -318,7 +331,45 @@ main {
   color: #000000;
 }
 /* <!-- home end --> */
+ /* partners start */
+ 
+ 
+/* .partners_in a img{
+  display: inline-block;
+  margin-right: 100px;
+} */
 
+.marquee {
+  height: 45px;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee .partners_in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  position: absolute;
+  overflow: hidden;
+  
+
+  animation: marquee 2s linear infinite;
+}
+
+.marquee a img {
+  float: left;
+  width: 100%;
+}
+
+@keyframes marquee {
+  0% { left: 0px; }
+  100% { left: -100%; }
+}
+ /* partners end */
 /* <!-- Live Auctions start --> */
 .testimonial {
   background: var(--button-color-black);
@@ -826,6 +877,7 @@ footer .row .logo{
 .logo a img{
   width: 100%;
 }
+
 footer .row .somethings .text{
   font-family: var(--font1);
   font-style: normal;
@@ -915,7 +967,11 @@ footer .row .somethings .text{
     max-width: 100%;
   }
   .header__logo {
-    margin-right: 400px;
+    margin-right: 200px;
+  }
+  .header_bars {
+    margin-top: -10px;
+    display: block;
   }
   .nav__link {
     display: none;
@@ -959,9 +1015,21 @@ footer .row .somethings .text{
     margin-top: 0px;
   }
   .home__info h1 {
+    
     font-size: 48px;
     line-height: 70px;
     text-align: center;
+  }
+  .home__img__box2{
+    margin-top: -5px;
+  }
+  .home__img__box2__left p{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .home__img__box2__left span{
+    display: inline-block;
+    margin-left: 10px;
   }
   .home__info h1 span {
     color: var(--color-yellow);
@@ -971,16 +1039,27 @@ footer .row .somethings .text{
     margin-top: 0px;
     margin-bottom: 0px;
     gap: 20px;
+    margin-bottom: 20px;
   }
   .home__buttons .bnt1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
     width: 50%;
     padding: 15px 20px;
   }
   .home__buttons .bnt2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     font-size: 18px;
     padding: 15px 20px;
+  }
+
+  .home__img__box2__button .btn{
+    margin-right: 20px;
   }
   .statistics {
     max-width: 710px;
@@ -1093,16 +1172,18 @@ footer .row .somethings .text{
   .home__img__box2__button .btn {
     padding: 11px 22px;
   }
-  /* <!-- home end --> */
+  .marquee .partners_in{
+    flex-direction: column;
+  }
+  
 
+  /* <!-- home end --> */
+ 
   /* <!-- Live Auctions start --> */
   .testimonial {
     background: var(--button-color-black);
     padding: 8px 0;
     margin-top: 10px;
-  }
-  .testimonial .container {
-    /* overflow: hidden; */
   }
 
   .testimonial .testimonial_head .testimonial_title {
@@ -1120,7 +1201,11 @@ footer .row .somethings .text{
     height: 60px;
     left: 30px;
   }
-
+  .testimonial .testimonial_cards ul li .cards_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .testimonial .testimonial_head .testimonial_scroll div {
     display: none;
   }
